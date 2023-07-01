@@ -30,16 +30,16 @@ const Form = () => {
       {!editMode ? (
         <div>
            <p>
-    <span className="label">First Name:</span>   {submittedData?.firstName}
+    <span className="label">First Name:   {submittedData?.firstName} </span> 
   </p>
   <p>
-    <span className="label">Last Name:</span>  {submittedData?.lastName}
+    <span className="label">Last Name:    {submittedData?.lastName} </span>
   </p>
   <p>
-    <span className="label">Email Address:</span>     {submittedData?.email} 
+    <span className="label">Email Address:     {submittedData?.email} </span>
   </p>
   <p>
-    <span className="label">Phone Number:</span>     {submittedData?.number} 
+    <span className="label">Phone Number:    {submittedData?.number} </span> 
   </p>
           <button className="editbtn hide-on-print" onClick={handleEdit}>Edit</button>
         </div>
